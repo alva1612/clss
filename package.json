@@ -3,9 +3,13 @@
   "version": "1.0.1",
   "description": "Class name generator utility molded for personal use case.",
   "main": "src/index.js",
+  "types": "src/index.d.ts",
   "scripts": {
     "test": "exit 0"
   },
   "author": "Alvaro Guillén <alvaro.guillenc1612@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
 }
