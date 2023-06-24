@@ -7,8 +7,5 @@
     "test": "exit 0"
   },
   "author": "Alvaro Guillén <alvaro.guillenc1612@gmail.com>",
-  "license": "ISC",
-  "publishConfig": {
-    "@alva1612:registry": "https://npm.pkg.github.com/"
-  }
+  "license": "ISC"
 }
