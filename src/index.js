@@ -5,13 +5,18 @@ function toVal(mix) {
   return str;
 }
 
-export function clss(...args) {
+/**
+ * @function clss
+ * @param {...(string|boolean)} expressions - Either class names or expressions that evaluate to class names conditionally
+ * @yields {string} - Returns the computed class string
+ */
+export function clss(...expressions) {
   let i = 0,
     tmp,
     x,
     str = "";
-  while (i < args.length) {
-    if ((tmp = args[i++])) {
+  while (i < expressions.length) {
+    if ((tmp = expressions[i++])) {
       if ((x = toVal(tmp))) {
         str && (str += " ");
         str += x;
