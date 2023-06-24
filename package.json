@@ -1,6 +1,6 @@
 {
   "name": "@alva1612/clss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Class name generator utility molded for personal use case.",
   "main": "src/index.js",
   "scripts": {
