@@ -1,5 +1,5 @@
 {
-  "name": "@alvedo/clss",
+  "name": "@alva1612/clss",
   "version": "1.0.0",
   "description": "Class name generator utility molded for personal use case.",
   "main": "src/index.js",
@@ -9,6 +9,6 @@
   "author": "Alvaro Guillén <alvaro.guillenc1612@gmail.com>",
   "license": "ISC",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "@alva1612:registry": "https://npm.pkg.github.com/"
   }
 }
